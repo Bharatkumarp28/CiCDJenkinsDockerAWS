@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class User {
     @ResponseBody
     @RequestMapping("/")
-    public String init() {
+    public String index() {
    	 return "Index Page";
     }
 
