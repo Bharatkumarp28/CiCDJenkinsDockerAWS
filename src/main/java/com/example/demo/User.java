@@ -9,7 +9,7 @@ public class User {
     @ResponseBody
     @RequestMapping("/")
     public String index() {
-   	 return "Index Page";
+    	return "index";
     }
 
 }
